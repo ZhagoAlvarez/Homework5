@@ -1,0 +1,203 @@
+@font-face { 
+    font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+html { 
+  height: 100%;
+}
+
+* { 
+  padding: 0;
+  margin: 0;
+}
+  
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+}
+a:hover {
+  text-decoration: none;
+  color: #E5017D;
+}
+
+body { 
+  font: normal .8em arial, sans-serif;
+  background: #C4E9E8 url(../Images/back.png) repeat-x;
+  color: #555;
+}
+
+#main {
+  background: transparent url(../Images/grass.png) repeat-x bottom;
+  height: 1265px;
+}
+
+#container {
+  width: 60%;
+  position: relative;
+  margin: 10px auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#header {
+  background-image:  url(../Images/logo.png);
+  background-size: 100% 100%;
+  position: relative;
+  width: 95%;
+  margin: 1px auto;
+  height: 300px;
+}
+
+#nav {
+  background-color: #53C7fd;
+  color: #fff;
+  font-size: 17px;
+  position: relative;
+  width: 99%;
+  margin: 1px auto;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#article {
+  float: left;
+  max-width: 475px;
+  margin: 0;
+  padding: 20px;
+  font-size: large;
+}
+
+#Animado05 {
+  float: right;
+  max-height: 100px;
+  max-width: 120px;
+  padding: 15px;
+  border: 1px solid #141414;
+}
+
+h1{
+  color:#E5017D;
+  padding: 10px;
+}
+
+#cuadros {
+  float: right;
+  max-width: 300px;
+}
+
+#recienLlegados {
+  background-color:#F5FEFF;
+  border: 1px solid #bbb7b7;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2{
+  color:#6fe501;
+  padding: 10px 10px 10px 10px;
+}
+
+a.dogLink {
+  color: aqua;
+  padding: 10px 10px 10px 10px;
+}
+
+#cuidadosZaguate {
+  background-color:#F5FEFF;
+  border: 1px solid #bbb7b7;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#contactenos {
+  background-color:#F5FEFF;
+  border: 1px solid #bbb7b7;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#footer {
+  background-color: #53C7fd;
+  color: #fff;
+  font-size: 17px;
+  position: relative;
+  width: 99%;
+  margin: 1px auto;
+  height: 100px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+a.foot {
+  border-right: 1px solid #fff;
+}
+
+ a.last{
+  border-right: 0px;
+}
+
+/* Dropdown */
+
+.dropbtn {
+  background-color: #53C7fd;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #53C7fd;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(248, 242, 242);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #E5017D}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#Perro{
+   padding: 5px;
+   position: center;
+   width: 70px;
+   height: 70px;
+}
+
+#tablePerros{
+  padding: 10px;
+}
+
+td {
+  padding: 15px;
+}
+
